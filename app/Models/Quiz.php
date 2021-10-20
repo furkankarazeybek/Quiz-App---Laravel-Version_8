@@ -8,4 +8,5 @@ use Illuminate\Database\Eloquent\Model;
 class Quiz extends Model
 {
     use HasFactory;  //bu model bir factorye sahipm 
+    protected $fillable=['title','description','finished_at']; //doldurulabilir alanları belirleme.
 }
